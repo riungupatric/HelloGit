@@ -1,0 +1,8 @@
+***********Evaluates to False****************
+# False and None evaluate to False
+# Numeric zero values: 0, 0.0, 0j
+# Decimal(0) and Fraction(0, x)
+# Empty sequences/collections : '', (),{},[]
+# Empty sets and ranges: set(), range(0)
+# Custom objects that overide __bool__ method and return False
+# Custom objects that overide __len__ method and return 0
